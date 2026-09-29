@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario{
+    background-color: #0057b338;
+    border-radius: 10%;
+}
+
+.formulario,h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+}
+
+.formulario,input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
